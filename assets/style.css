@@ -1,5 +1,30 @@
-.query{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: large;
-    color: rgb(235, 7, 7);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{ height: 100%;}
+
+body {min-height:100%;
+    line-height: 1;
+    font-family: 'Times New Roman', Times, serif;
+    max-width: 100%;
+    margin: auto;}
+
+h1{background-color: black;
+color: red;}
+input[type=text]{
+padding: 10px;
+font-size: 17px;
+border: 1px solid blue;
+float: right;
+width: 80%;
+background: #f1f1f1;
+}
+button{
+    float: right;
+}
+
+ul{
+    background-color: rgb(115, 211, 102);
 }
